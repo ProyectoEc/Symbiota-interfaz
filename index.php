@@ -82,7 +82,7 @@ header("Content-Type: text/html; charset=".$CHARSET);
 			</div>
 
 			<div class="col-lg-3 col-md-6 mb-4">
-				<a href="<?php echo $CLIENT_ROOT; ?>/taxa/taxonomy/taxonomydynamicdisplay.php" >
+				<a href="<?php echo $CLIENT_ROOT; ?>/taxa/admin/taxonomydynamicdisplay.php" >
 				<div class="card">
 					<img class="card-img-top-taxa" src="images/taxa.png" alt="">
 					<div class="card-body">

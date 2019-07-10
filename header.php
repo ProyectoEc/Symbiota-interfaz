@@ -6,6 +6,10 @@ include_once($SERVER_ROOT.'/content/lang/header.'.$LANG_TAG.'.php');
 <head>
 	<!--script para cambio de lenguaje-->
 	<script type="text/javascript" src="<?php echo $CLIENT_ROOT; ?>/js/symb/base.js?ver=171023"></script>
+	<link href="<?php echo $CLIENT_ROOT; ?>/css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
+	<link href="<?php echo $CLIENT_ROOT; ?>/images/favicon.png" type="image/png" rel="shortcut icon"/>
+
+
 </head>
 <body>
 	<div class="container1">
@@ -47,6 +51,7 @@ include_once($SERVER_ROOT.'/content/lang/header.'.$LANG_TAG.'.php');
 		</div>
 		<!-- Fin div right nav -->
 			<!-- DIV DEL LOGO -->
+
 	</div>
 
 	<!-- Fin div logo -->
@@ -74,6 +79,10 @@ include_once($SERVER_ROOT.'/content/lang/header.'.$LANG_TAG.'.php');
         <li><a href='<?php echo $CLIENT_ROOT; ?>/help.php' class="nav-link"><?php echo (isset($LANG['H_HELP'])?$LANG['H_HELP']:'Ayuda'); ?></a></li>
     </ul>
 	</div>
+
+
 </div>
+
+
 </body>
 </html>

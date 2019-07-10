@@ -34,7 +34,7 @@ header("Content-Type: text/html; charset=".$CHARSET);
 	<script src="js/jquery.slides.js"></script>
 
 	<!--inicio favicon -->
-	<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+	<link rel="shortcut icon" href="<?php echo $CLIENT_ROOT;?>/images/favicon.png" type="image/png">
 
 	<script type="text/javascript">
 		<?php include_once($SERVER_ROOT.'/config/googleanalytics.php'); ?>

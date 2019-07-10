@@ -47,7 +47,6 @@ include_once($SERVER_ROOT.'/content/lang/header.'.$LANG_TAG.'.php');
 		</div>
 		<!-- Fin div right nav -->
 			<!-- DIV DEL LOGO -->
-
 	</div>
 
 	<!-- Fin div logo -->
@@ -75,10 +74,6 @@ include_once($SERVER_ROOT.'/content/lang/header.'.$LANG_TAG.'.php');
         <li><a href='<?php echo $CLIENT_ROOT; ?>/help.php' class="nav-link"><?php echo (isset($LANG['H_HELP'])?$LANG['H_HELP']:'Ayuda'); ?></a></li>
     </ul>
 	</div>
-
-
 </div>
-
-
 </body>
 </html>
